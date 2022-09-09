@@ -1,0 +1,57 @@
+{
+  "name": "ankurk91/laravel-otp",
+  "description": "One time password (OTP) generator and verifier.",
+  "keywords": [
+    "laravel",
+    "otp",
+    "one time password"
+  ],
+  "homepage": "https://github.com/ankurk91/laravel-otp",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ankurk91",
+      "homepage": "https://ankurk91.github.io"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "illuminate/cache": "^9.3",
+    "illuminate/support": "^9.3"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^7.7"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ankurk91\\LaravelOTP\\OTPServiceProvider"
+      ],
+      "aliases": {
+        "OTP": "Ankurk91\\LaravelOTP\\Facades\\OTP"
+      }
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Ankurk91\\LaravelOTP\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ankurk91\\LaravelOTP\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit --testdox --color=always",
+    "test:coverage": "vendor/bin/phpunit --testdox --color=always --coverage-clover=coverage.xml"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
