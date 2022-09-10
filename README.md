@@ -36,7 +36,7 @@ $phoneNumber = '+1234567890';
 $secret = otp()->generate($phoneNumber, 6)
 // You send $secret via SMS/Email to user
 
-otp()->match($phoneNumber, $code);
+otp()->match($phoneNumber, request('otp'));
 
 otp()->forget($phoneNumber);
 ```

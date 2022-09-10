@@ -81,6 +81,6 @@ class OTPFactory
 
     protected function makeKey(string $key): string
     {
-        return Str::of('otp:'.$key)->trim()->lower()->slug()->value();
+        return (string) Str::of('otp:'.$key)->trim()->lower()->slug();
     }
 }
