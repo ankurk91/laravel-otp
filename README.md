@@ -1,7 +1,7 @@
 # Laravel OTP
 
 [![Packagist](https://badgen.net/packagist/v/ankurk91/laravel-otp)](https://packagist.org/packages/ankurk91/laravel-otp)
-[![GitHub-tag](https://badgen.net/github/tag/ankurk91/laravel-otp)](https://github.com/ankurk91/laravel-otp/releases)
+[![GitHub-tag](https://badgen.net/github/tag/ankurk91/laravel-otp)](https://github.com/ankurk91/laravel-otp/tags)
 [![License](https://badgen.net/packagist/license/ankurk91/laravel-otp)](LICENSE.txt)
 [![Downloads](https://badgen.net/packagist/dt/ankurk91/laravel-otp)](https://packagist.org/packages/ankurk91/laravel-otp/stats)
 [![GH-Actions](https://github.com/ankurk91/laravel-otp/workflows/tests/badge.svg)](https://github.com/ankurk91/laravel-otp/actions)
