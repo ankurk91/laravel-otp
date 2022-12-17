@@ -34,7 +34,7 @@ You can use the global helper function
 $phoneNumber = '+1234567890';
 
 $secret = otp()->generate($phoneNumber, 6)
-// You send $secret via SMS/Email to user
+// You can send $secret via SMS/Email to user
 
 otp()->match($phoneNumber, request('otp'));
 
