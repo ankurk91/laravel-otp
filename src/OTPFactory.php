@@ -42,7 +42,7 @@ class OTPFactory
 
     public function getExpiryInMinutes(): int
     {
-        return (int) round($this->expireInSeconds / 60, 0);
+        return (int) round($this->expireInSeconds / 60);
     }
 
     public function generate(string $key): ?string

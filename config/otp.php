@@ -9,5 +9,5 @@ return [
     /**
      * Expiry in seconds.
      */
-    'expiry' => (int) env('OTP_EXPIRY', 900),
+    'expiry' => (int) env('OTP_EXPIRY', 60 * 15),
 ];
