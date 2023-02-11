@@ -20,7 +20,8 @@
     "illuminate/support": "^9.34 || ^10"
   },
   "require-dev": {
-    "orchestra/testbench": "^7.10 || ^8.0"
+    "orchestra/testbench": "^7.12 || ^8.0",
+    "phpunit/phpunit": "^9.5"     
   },
   "config": {
     "sort-packages": true
