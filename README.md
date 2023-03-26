@@ -67,6 +67,8 @@ composer test
 
 If you discover any security issues, please email `pro.ankurk1[at]gmail[dot]com` instead of using the issue tracker.
 
+This packages does not follow the HOTP or TOTP specification.
+
 ## License
 
 The [MIT](https://opensource.org/licenses/MIT) License.
