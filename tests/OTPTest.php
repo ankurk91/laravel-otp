@@ -4,9 +4,18 @@ declare(strict_types=1);
 namespace Ankurk91\LaravelOTP\Tests;
 
 use Ankurk91\LaravelOTP\Facades\OTP;
+use Ankurk91\LaravelOTP\Keyspace;
 use Ankurk91\LaravelOTP\OTPFactory;
+use Ankurk91\LaravelOTP\OTPServiceProvider;
+use Ankurk91\LaravelOTP\RandomString;
 use Illuminate\Support\Str;
+use PHPUnit\Framework\Attributes\CoversClass;
 
+#[CoversClass(OTPFactory::class)]
+#[CoversClass(OTP::class)]
+#[CoversClass(OTPServiceProvider::class)]
+#[CoversClass(Keyspace::class)]
+#[CoversClass(RandomString::class)]
 class OTPTest extends TestCase
 {
     public function test_it_generate_secret()

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.0
+
+* Allow Laravel 12 and Drop Laravel 10
+
 ## 1.1.0
 
 * Drop support for Laravel 8
