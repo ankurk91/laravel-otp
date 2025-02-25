@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.2.0
+## 1.4.0
 
 * Allow Laravel 12 and Drop Laravel 10
 
